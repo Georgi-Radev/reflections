@@ -3,3 +3,9 @@ When would you want to create a remote repository rather than keeping all your w
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 	Pulling changes manually from the remote repository gives me better control over the state of both repositories. It would be dangerous if Git synced automatically because it can accidently override important changes in one of the repositories.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	When we create a branch, we make a new development line in the same repository. The operation relates to a single repository.
+	When we clone, we make a copy of entire repository on our local machine.
+	When we fork, we do the same thing as we clone except that the copy goes to a GitHub Server, associated with our profile.
+	All these operations are useful when we want to create something essentially new. When the base is in the same repository, we branch. When the base is in another repository, we clone, if we copy to a local one, or fork, if we copy to a GitHub.
