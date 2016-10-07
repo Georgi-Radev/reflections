@@ -9,3 +9,6 @@ Describe the differences between forks, clones, and branches. When would you use
 	When we clone, we make a copy of entire repository on our local machine.
 	When we fork, we do the same thing as we clone except that the copy goes to a GitHub Server, associated with our profile.
 	All these operations are useful when we want to create something essentially new. When the base is in the same repository, we branch. When the base is in another repository, we clone, if we copy to a local one, or fork, if we copy to a GitHub.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	This feature helps us avoiding more frequent merge conflicts and makes it easier to merge when one of the commits is ancestor of the other.
