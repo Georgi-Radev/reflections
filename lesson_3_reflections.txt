@@ -8,7 +8,12 @@ Describe the differences between forks, clones, and branches. When would you use
 	When we create a branch, we make a new development line in the same repository. The operation relates to a single repository.
 	When we clone, we make a copy of entire repository on our local machine.
 	When we fork, we do the same thing as we clone except that the copy goes to a GitHub Server, associated with our profile.
-	All these operations are useful when we want to create something essentially new. When the base is in the same repository, we branch. When the base is in another repository, we clone, if we copy to a local one, or fork, if we copy to a GitHub.
+	All these operations are useful when we want to create something essentially new. When the base is in the same repository, we branch. When the base is in another repository, we clone, if we copy to a local one, or fork, if we copy to GitHub.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 	This feature helps us avoiding more frequent merge conflicts and makes it easier to merge when one of the commits is ancestor of the other.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	I'll collaborate using phone, Skype etc. It would be easier to talk, but much harder to work with files: update them, resolve conflicts, propose changes etc.
+	It would be reasonable only if I work on really separate part of our project that couldn't create conflict with theirs work.
+	In all other cases it would be inappropriate; we'll lose all the powerful features that version control offers.
