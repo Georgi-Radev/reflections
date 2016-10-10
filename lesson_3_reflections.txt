@@ -17,3 +17,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	I'll collaborate using phone, Skype etc. It would be easier to talk, but much harder to work with files: update them, resolve conflicts, propose changes etc.
 	It would be reasonable only if I work on really separate part of our project that couldn't create conflict with theirs work.
 	In all other cases it would be inappropriate; we'll lose all the powerful features that version control offers.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	I think that the decision whether to make changes in a separate branch or directly in master is a matter of experience that I don't have so far.
+	Working directly in master is reasonable when my work relates closely to the main idea of the solution I work on. Working in separate branch is reasonable when my work is logically separate or when I'm not sure whether my changes will be approved.
+	Working in master gives an easier process of pushing changes to the remote repository, but is easier to collaborate with the team when I work in separate branch.
